@@ -18,7 +18,7 @@ class _MyWidgetState extends State<ATestApp> {
     return const MaterialApp(
       home: Scaffold(
         body: ModelViewer(
-          src: 'assets/models/scene.gltf',
+          src: 'assets/models/chair.glb',
           ar: true,
           arPlacement: ArPlacement.floor,
           autoRotate: true,
